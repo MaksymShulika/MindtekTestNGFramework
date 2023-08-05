@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MindtekTestNGFramework">
+    <test name="UI Automation">
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_souse"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+<!--                <exclude name="smoke"/>-->
+            </run>
+        </groups>
+
+        <classes>
+            <!--            <class name="tests.FrameworkTest"/>
+                       <class name="tests.BlazeDemoTests"/>-->
+                       <class name="tests.SoucedemoTests"/>
+                   </classes>
+               </test>
+           </suite>
