@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "driver_id": null,
+  "driver_number": null,
+  "staff": "non-staff",
+  "status": "Off",
+  "current_location": 530,
+  "other_location_zip_code": "",
+  "other_location": "",
+  "cargo": "Flat",
+  "full_name": "Patel",
+  "local": false,
+  "local_state": null,
+  "address": "123 Mindtek Rd",
+  "apt_suite_company_co": "",
+  "city": "Chicago",
+  "state": "IL",
+  "zip_code": "60173",
+  "skype": "",
+  "viber": "",
+  "other_social": "",
+  "dispatcher": null,
+  "driving_license_exp": "08/31/2023",
+  "ssn": "123-45-6787",
+  "medical_certification_exp": "08/31/2023",
+  "twic": false,
+  "ipass": "",
+  "logbook_num": "",
+  "logbook_email": "",
+  "logbook_password": "",
+  "warning": "",
+  "notes": "",
+  "medical_upload": [],
+  "license_upload": [],
+  "twic_upload": [],
+  "contacts": [
+    {
+      "phone": "123-456-7898",
+      "email": "abc@gmail.com"
+    }
+  ],
+  "email_number": [
+    {
+      "email": "abc@gmail.com"
+    }
+  ],
+  "phone_number": [
+    {
+      "phone": "123-456-7898",
+      "email": "abc@gmail.com"
+    }
+  ],
+  "display_location": "Y530",
+  "notes_popup": "",
+  "popup_name": "",
+  "count_phone": 0,
+  "count_email": 0
+}

@@ -5,15 +5,17 @@
         <parameter name="password" value="secret_souse"/>
         <groups>
             <run>
-                <include name="regression"/>
-<!--                <exclude name="smoke"/>-->
+                <include name="api"/>
+                <!--                <exclude name="smoke"/>-->
             </run>
         </groups>
 
         <classes>
             <!--            <class name="tests.FrameworkTest"/>
                        <class name="tests.BlazeDemoTests"/>-->
-                       <class name="tests.SoucedemoTests"/>
-                   </classes>
-               </test>
-           </suite>
+<!--            <class name="tests.SoucedemoTests"/>-->
+            <class name="tests.BookApiTests"/>
+            <class name="tests.LogisticsDriverApiTests"/>
+        </classes>
+    </test>
+</suite>
